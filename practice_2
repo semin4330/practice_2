@@ -8,7 +8,6 @@ y = mnist["target"]
 print(X.shape)
 print(y.shape)
 
-
 import matplotlib as mpl
 import matplotlib.pyplot as plt
 some_digit = X[0]
