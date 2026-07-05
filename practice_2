@@ -17,6 +17,7 @@ some_digit = X[7]
 some_digit_image = some_digit.reshape(28, 28)
 plt.imshow(some_digit_image, cmap=mpl.cm.binary)
 plt.show()
+print(some_digit)
 
 import numpy as np
 print(y[5:10])
