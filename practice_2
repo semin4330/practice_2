@@ -27,4 +27,4 @@ print(y_train_5)
 print(y_test_5)
 print(y_train_5.shape)
 print(y_test_5.shape)
-print(X_train)
+print(X_train) # 2번시연 임재백
