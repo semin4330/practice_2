@@ -3,9 +3,11 @@ mnist = fetch_openml('mnist_784', version=1, as_frame=False)
 mnist.keys()
 print(mnist)
 
-X, y = mnist["data"], mnist["target"]
+X = mnist["data"]
+y = mnist["target"]
 print(X.shape)
 print(y.shape)
+
 
 import matplotlib as mpl
 import matplotlib.pyplot as plt
